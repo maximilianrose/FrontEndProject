@@ -1,9 +1,26 @@
 body {
   margin: 0;
-background: dodgerblue;
+background: black;
 
 }
 
+h1{
+
+color: antiquewhite;
+
+
+}
+h2{
+
+  padding: 2px 6px 2px 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fcc;
+  float:left;
+  font-size: 4.5em;
+  margin: 0.1em 0.1em 0 -30px;
+  line-height: 1em;
+}
 
 input,
 section {
@@ -37,13 +54,22 @@ label.navigation {
   display: block;
   float: left;
   width: 33.3%;
-  color: deeppink;
+  color: darkred;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
   background: #eee;
   line-height: 3em;
 }
+
+/*.xboxlist{
+
+float: left;
+position: absolute;
+left: 200px;
+bottom:100px;
+
+} */
 
 
 label.loginnavigation {
@@ -175,13 +201,14 @@ button.search {
 [id^="tab"]:checked + label {
   background: #fff;
   color: #222;
+  
 }
 [id^="tab"]:checked + label .fa {
   color: red;
 }
 
 .tab-content {
-  background: antiquewhite;
+  background:grey;
 }
 .fa {
   margin-right: 10px;
@@ -255,7 +282,7 @@ button.search {
 }
 
 
-div.animation {
+span.animation {
     width: 10px;
     height: 10px;
     background-color: red;
@@ -265,13 +292,16 @@ div.animation {
     animation-duration: 20s;
     position: absolute;
     left: 100px;
-    top: 150px;
+    top: 500px;
 }
 
 @keyframes example {
     0%   {background-color: red;}
+    10%  {background-color: beige;}
     25%  {background-color: yellow;}
+    30%  {background-color: deeppink;}
     50%  {background-color: blue;}
+    60%  {background-color: teal;}
     100% {background-color: green;}
 }
 
