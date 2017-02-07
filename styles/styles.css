@@ -42,10 +42,26 @@ p {
 
 }
 
-.rev {
+.revhead1 {
 
 color: ghostwhite;
+float: left;
 
+}
+
+.revhead2 {
+
+color: ghostwhite;
+float:left;
+
+
+}
+
+
+.revhead3 {
+
+color: ghostwhite;
+float: left;
 
 }
 
@@ -63,6 +79,9 @@ color: ghostwhite;
   line-height: 1em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: red;
+  position: absolute;
+  
+  display: inline-block;
 
 }
 
@@ -81,11 +100,52 @@ color: ghostwhite;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color:black;
   transform: rotateX(360deg);
-  transition: 3s
+  transition: 3s;
+position: absolute;
+ display: inline-block;
+}
+
+
+.para1 {
+ padding: 2px 6px 2px 2px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  
+  float:left;
+  display: inline-block;
+
 
 }
 
 
+
+.para2 {
+ padding: 2px 6px 2px 2px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  
+  
+display: inline-block;
+
+}
+
+
+
+
+.para3 {
+ padding: 2px 6px 2px 2px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  float:left;
+  display: inline-block;
+
+
+}
+
+.section1 {
+
+  float: left;
+}
 
 
 .homelink  {
@@ -93,10 +153,11 @@ color: ghostwhite;
 position: fixed;
     top: 0;
     right: 0;
-    color: 
+    
 
 
 }
+
 
 
 body{
