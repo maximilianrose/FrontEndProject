@@ -35,6 +35,68 @@ h2.nes{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p {
+  color: ghostwhite;
+
+
+
+}
+
+.rev {
+
+color: ghostwhite;
+
+
+}
+
+.rating {
+
+
+
+  padding: 2px 6px 2px 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: red;
+  float:left;
+  font-size: 4em;
+  margin: 0.1em 0.1em 0 0px;
+  line-height: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+
+}
+
+.rating:hover {
+
+
+
+  padding: 2px 6px 2px 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: red;
+  float:left;
+  font-size: 4em;
+  margin: 0.1em 0.1em 0 0px;
+  line-height: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+  transform: rotateX(360deg);
+  transition: 3s
+
+}
+
+
+
+
+.homelink  {
+
+position: fixed;
+    top: 0;
+    right: 0;
+    color: 
+
+
+}
 
 
 body{
@@ -258,6 +320,26 @@ button.search {
     padding: 16px;
      color: hotpink;
 }
+
+h2 a:link {
+ color:blue;
+}
+h2 a:visited {
+ color: darkred;
+}
+h2 a:hover {
+ background: blanchedalmond;
+ text-decoration: none;
+}
+h2 a:active {
+ background: #fcc;
+}
+
+
+
+
+
+
 
 
 
