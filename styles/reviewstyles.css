@@ -34,7 +34,7 @@ section {
 
 .menu{
     display: hidden;
-    width: 24%;
+    width: 22%;
     height: 30px;
     float: left;
     background: red;
@@ -50,9 +50,9 @@ section {
 
 /* ========================== FIRST BREAKPOINT ========================== */
 @media screen and (min-width: 580px) {
-  /* styles for above mobile sizes */
+  
 
-  /* place any hover states here - no hover for mobile! */
+  
   header {
     background: #444;
     color: #ccc;
@@ -77,6 +77,26 @@ section {
     background: #666;
   }
 }
+
+.menu{
+    display: hidden;
+    width: 24%;
+    height: 30px;
+    float: left;
+    background: red;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+
+.menu{
+        display: inline-block;
+    }
+
+
+
+
 /* END FIRST BREAKPOINT */
 
 
