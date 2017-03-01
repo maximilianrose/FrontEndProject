@@ -30,6 +30,24 @@ section {
   min-height: 100px;
 }
 
+
+
+.menu{
+    display: hidden;
+    width: 24%;
+    height: 30px;
+    float: left;
+    background: red;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+
+.menu{
+        display: inline-block;
+    }
+
 /* ========================== FIRST BREAKPOINT ========================== */
 @media screen and (min-width: 580px) {
   /* styles for above mobile sizes */
