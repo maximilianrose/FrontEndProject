@@ -119,3 +119,22 @@ section {
  position: relative;
 
 }
+
+ 
+
+
+.menu{
+    display: hidden;
+    width: 24%;
+    height: 30px;
+    float: left;
+    background: red;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+
+.menu{
+        display: inline-block;
+    }
