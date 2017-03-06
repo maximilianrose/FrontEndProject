@@ -18,16 +18,48 @@
   <main>
 
 <nav>
-                    
+                   <section class="menusection"> 
                     <ul >
-                        <li class ="menu" ><a href="index.html">Home</a></li>
-                        <li class ="menu" ><a href="overwatch.html">Dragons lair review</a></li>
-                        <li  class ="menu"><a href="fifa17.html">Contact</a></li>
-                         <li class ="menu"><a href="destiny.html">Destiny</a></li>
+                        <li class ="menu" > 
+                          
+                          <form method="GET" action ="index.html">
+                          
+                          
+                          <button class = "menubutton" type="submit"> Home</button>  
+                          
+                          </form>   </li>
+                        <li class ="menu" > 
+
+
+                          
+                     <input type="button" class ="menubutton" id="randomreview" value="Random Review" onclick="randomreview()" /> 
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                            </li>
+                        <li class="menu">
+                        
+                         <form method="GET" action ="contact.html">
+                          
+                          
+                          <button class = "menubutton" type="submit"> Contact </button>  
+                          
+                          </form>
+                        
+                        
+                        
+                        </li>
+                         
                     </ul>
                 </nav>
 
-                <br>
+                </section>
+
+                <br> <br> <br>
 
     <section>
       <h2>Introduction</h2>
@@ -72,13 +104,36 @@ it something akin to a cult following. It genuinely feels nothing short of a mir
 
 
 
-  </main>
+  
 
 
-  <footer>
+  
+</div>
+
+
+
+<div class="reviewcontainer">
+<footer>
 <h2 class= "rating" > 2/10: Poor </h2>
+
+
+<form id="getrating" action="#" method="post">
+    <label for="user-name">Enter name:</label>
+    <input type="n" id="score" placeholder="Your name?">
+    <input type="submit">
+  </form>
+
+  <script src="js/index.js"></script>
+
+
+
  </footer>
 </div>
 
+
+
 </body>
+
+
+</main>
 </html>
