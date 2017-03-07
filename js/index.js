@@ -8,7 +8,7 @@ var reviewlinks = new Array()
 reviewlinks[0] = "dragonslairreview.html"
 reviewlinks[1] = "index.html"
 reviewlinks[2] = "battlefield1.html"
-reviewlinks[3] = "dishonored2.html"
+reviewlinks[3] = "silversurfer.html"
 
 window.location= reviewlinks[mylinks]
 
@@ -23,7 +23,9 @@ function revealScore() {
 };
 
 
-
+function popUpScore() {
+    alert("8/10, Room for Improvement");
+};
 
 
 
