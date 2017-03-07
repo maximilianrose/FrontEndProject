@@ -3,12 +3,13 @@ function randomreview()
 
 {
 
-  var mylinks= Math.round(Math.random()*4)
+  var mylinks= Math.round(Math.random()*5)
 var reviewlinks = new Array()
 reviewlinks[0] = "dragonslairreview.html"
-reviewlinks[1] = "index.html"
+reviewlinks[1] = "southpark.html"
 reviewlinks[2] = "battlefield1.html"
 reviewlinks[3] = "silversurfer.html"
+reviewlinks[4] = "fallout4.html"
 
 window.location= reviewlinks[mylinks]
 
