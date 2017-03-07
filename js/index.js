@@ -16,7 +16,11 @@ window.location= reviewlinks[mylinks]
 };
 
 
-
+function revealScore() {
+    var str = document.getElementById("rating").innerHTML; 
+    var res = str.replace("?", "3/10");
+    document.getElementById("rating").innerHTML = res;
+};
 
 
 
