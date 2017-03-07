@@ -233,6 +233,14 @@ display: none;
 }
 
 
+p .reveal
+ { display: none; }
+p:hover .cover
+ { display: none; }
+p:hover .reveal
+ { display: inline; }
+
+
 
 
     
@@ -356,7 +364,8 @@ display: none;
 
 
 
-/* Dropdown Button */
+/* Dropdown Button from https://www.w3schools.com/howto/howto_css_dropdown.asp this is for use on small screens as the
+ three seperate buttons on the large screen version looked messy*/
 .dropbtn {
     background-color: green;
     color: white;
