@@ -23,6 +23,11 @@ window.location= reviewlinks[mylinks]
 
 
 
+
+
+
+
+
 //script for generating mario sprite
 
 var cx = document.querySelector('canvas').getContext('2d'),
