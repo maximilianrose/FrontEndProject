@@ -5,7 +5,7 @@ function randomreview()
 
   var mylinks= Math.round(Math.random()*9)
 var reviewlinks = new Array()
-reviewlinks[0] = "DragonsLair.html"
+reviewlinks[0] = "dragonslairreview.html"
 reviewlinks[1] = "index.html"
 reviewlinks[2] = "battlefield1.html"
 reviewlinks[3] = "dishonored2.html"
