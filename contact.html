@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/reviewstyles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1> Contact Us   </h1>
+  </header>
+
+  <main>
+
+<nav>
+        <section class="menusection"> 
+         <ul >
+         <li class ="menu" > 
+                          
+         <form method="GET" action ="index.html">
+                          
+                          
+         <button class = "menubutton" type="submit"> Home</button>  
+                          
+            </form>   </li>
+          <li class ="menu" > 
+
+
+                          
+       <input type="button" class ="menubutton" id="randomreview" value="Random Review" onclick="randomreview()" /> 
+                          
+                          
+                          
+           </li>
+        <li class="menu">
+                        
+          <form method="GET" action ="contact.html">
+                          
+                          
+          <button class = "menubutton" type="submit"> Contact </button>  
+                          
+         </form>
+                        
+                        
+                        
+                        </li>
+                         
+                    </ul>
+
+
+<!--seperate menu system for smaller screens-->
+<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="#" onclick="randomreview()">Random Review</a>
+    
+  </div>
+</div>
+
+
+
+
+                </nav>
+
+                </section>
+
+                <br> <br> <br>
+
+    <section>
+      <h2>Send in your review suggestions  </h2>
+      <form id="getcomment" action="#" method="post">
+    <label for="email">Enter Email:</label><br>
+    <input type="text" id="email" placeholder="Email"><br><br>
+    <label for="comment">Your Comment:</label><br>
+    <input type="text" id="comment" placeholder="enter here:"> <br><br>
+    <input type="submit">
+  </form>
+ 
+
+
+
+
+    </section>
+
+
+<section>
+
+<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+
+</style>
+
+     <h3>Where we're based</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 52.629, lng: -1.1398};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhjW-RIuRrpJngyufR_BgdRLZ6M5dejlk&callback=initMap">
+
+
+    </script>
+ 
+
+
+
+
+    </section>
+
+
+
+
+
+
+ <ul>
+			     <li class="socmedia"><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" id="google-plus"></i></a></li>
+			     <li class="socmedia"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a></li>
+			     <li class="socmedia" ><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube" id="youtube"></i></a></li>
+			     <li class="socmedia"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a></li>	
+		    </ul>
+    
+
+
+
+
+
+    <script src="js/index.js"></script>
+
+    
+
+</div>
+
+<footer>
+ 
+</footer>
+
+</body>
+
+</main>
+</html>
