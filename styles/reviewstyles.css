@@ -487,7 +487,7 @@ display: inline-block;
 
 }
 
-
+/*Hover does kind of work on mobile I've found*/
 
 .rating:hover {
 
@@ -564,6 +564,9 @@ display: inline-block;
     
 }
 
+
+/*Give a kind of pressed in look when clicked */
+
 .menubutton:active{
     
     width: 100%;
@@ -626,7 +629,7 @@ width: 100%;
     display: none;
 }
 
-
+/*change header depending on screen size, tap for small, and click for big*/
 .smallscreenscoreheader
 
 {
@@ -643,7 +646,7 @@ display: block;
 
 }
 
-
+/*social media icons displayed in a horizontal row*/
 
 .socmedia {
 
